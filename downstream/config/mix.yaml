@@ -1,0 +1,29 @@
+common:
+  seed: 42
+
+dataset:
+  # _name 对 main_mix 不重要，留着也行
+  _name: MIX
+  # 这里写“合并后前缀”，不要带后缀
+  feat_path: /data/zhaohaishu/Codes/emotion2vec-main/downstream/Final_mix/train
+
+  batch_size: 128
+  eval_is_test: false
+
+  # ✅ 新增：随机划分比例
+  val_ratio: 0.1
+  test_ratio: 0.1
+
+optimization:
+  epoch: 50
+  lr: 5e-4
+  weight_decay: 5e-3
+  label_smooth: 0.0
+
+# 如果你的代码里没用 scheduler，这块可以删掉或留空
+lr_scheduler:
+  _name: null
+  warmup_updates: 0
+
+model:
+  _name: BaseModel

@@ -1,0 +1,26 @@
+common:
+  seed: 42
+
+dataset:
+  feat_path: /data/zhaohaishu/Codes/emotion2vec-main/downstream/Final_mix_all_DANN/train
+
+  batch_size: 128
+  eval_is_test: false
+
+  val_ratio: 0.1
+  test_ratio: 0.1
+
+optimization:
+  epoch: 50
+  lr: 5e-4
+  weight_decay: 5e-3
+  label_smooth: 0.0
+  max_alpha: 1
+
+lr_scheduler:
+  _name: null
+  warmup_updates: 0
+
+model:
+  _name: EmotionDANN
+  adversarial_domain: syn_dict

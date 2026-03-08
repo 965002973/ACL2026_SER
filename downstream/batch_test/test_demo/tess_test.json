@@ -1,0 +1,22 @@
+[
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/downstream/batch_test/test_demo/OAF_witch_angry.wav",
+        "emotion": "angry"
+    },
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/downstream/batch_test/test_demo/OAF_yearn_angry.wav",
+        "emotion": "angry"
+    },
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/downstream/batch_test/test_demo/OAF_yes_angry.wav",
+        "emotion": "angry"
+    },
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/downstream/batch_test/test_demo/OAF_young_angry.wav",
+        "emotion": "angry"
+    },
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/downstream/batch_test/test_demo/OAF_youth_angry.wav",
+        "emotion": "angry"
+    }
+]

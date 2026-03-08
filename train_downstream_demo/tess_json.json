@@ -1,0 +1,22 @@
+[
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/train_tess_downstream_demo/tess_wav_demo/angry/OAF_back_angry.wav",
+        "emotion": "angry"
+    },
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/train_tess_downstream_demo/tess_wav_demo/angry/OAF_bar_angry.wav",
+        "emotion": "angry"
+    },
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/train_tess_downstream_demo/tess_wav_demo/angry/OAF_base_angry.wav",
+        "emotion": "angry"
+    },
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/train_tess_downstream_demo/tess_wav_demo/angry/OAF_bath_angry.wav",
+        "emotion": "angry"
+    },
+    {
+        "wav_path": "/data/zhaohaishu/Codes/emotion2vec_upload/train_tess_downstream_demo/tess_wav_demo/angry/OAF_bean_angry.wav",
+        "emotion": "angry"
+    }
+]
